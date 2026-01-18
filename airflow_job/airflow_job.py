@@ -11,14 +11,14 @@ default_args = {
     'depends_on_past': False,
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
-    'start_date': datetime(2026, 1, 18),
+    'start_date': datetime(2026, 01, 18),
 }
 
 # Define the DAG
 with DAG(
     dag_id="flight_booking_dataproc_bq_dag",
     default_args=default_args,
-    schedule_interval=None,  # Trigger manually or on-demand
+    schedule=None,  # Trigger manually or on-demand
     catchup=False,
 ) as dag:
 
