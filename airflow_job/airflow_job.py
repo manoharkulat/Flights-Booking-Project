@@ -69,8 +69,8 @@ with DAG(
         "environment_config": {
             "execution_config": {
                 "service_account": "954371746864-compute@developer.gserviceaccount.com",
-                "network_uri": "projects/psyched-service-442305-q1/global/networks/default",
-                "subnetwork_uri": "projects/psyched-service-442305-q1/regions/us-central1/subnetworks/default",
+                "network_uri": "projects/data-engineering-2026-484706/global/networks/default",
+                "subnetwork_uri": "projects/data-engineering-2026-484706/regions/us-central1/subnetworks/default",
             }
         },
     }
